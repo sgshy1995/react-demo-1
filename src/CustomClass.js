@@ -2,8 +2,8 @@ import React from 'react'
 import './custom.css'
 
 class CustomClass extends React.Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state ={
             m: 0,
             n: 0,
