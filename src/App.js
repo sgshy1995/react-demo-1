@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import CustomFunction from './CustomFunction'
+import CustomClass from './CustomClass'
 
 function App() {
   return (
@@ -9,6 +12,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <CustomFunction n={0} numbers={[1,2,3,4,5,'hello']} />
+        <CustomClass n={0} numbers={[1,2,3,4,5,'hello']} />
         <a
           className="App-link"
           href="https://reactjs.org"

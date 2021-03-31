@@ -1,0 +1,10 @@
+.custom{
+    border: 1px solid papayawhip;
+    background: rebeccapurple;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.custom button{
+    padding: 5px;
+    background:yellowgreen;
+}
